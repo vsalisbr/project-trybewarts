@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif;
+  letter-spacing: 0.8px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(50, 167, 145);
+  width: 100%;
+  height: 60px;
+  box-shadow: 0 0 5px black;
+}
+
+.trybewarts-header-logo {
+  height: 100%;
+}
+
+#trybewarts-header-title {
+  color: white;
+  font-family: Dancing Script, cursive;
+  font-size: 50px;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+.form-group {
+  margin: 5px;
+}
+
+main {
+  height: calc(100vh - 60px);
+  display: flex;
+  background-color: rgb(206, 202, 202);
+  justify-content: center;
+}
+
+#evaluation-form {
+  width: 675px;
+  display: flex;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#section-form {
+  width: 700px;
+  height: 770px;
+  margin: 16px;
+  padding: 16px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+#section-img {
+  margin: 16px;
+  padding: 8px;
+  height: 500px;
+}
+
+#form-header {
+  width: 100%;
+  text-align: center;
+}
+
+#nome-e-sobrenome {
+  display: flex;
+}
+
+#input-name {
+  flex-grow: 1;
+  margin: 10px;
+}
+
+#input-lastname {
+  flex-grow: 1;
+  margin: 10px;
+}
+
+#email-e-casa {
+  display: flex;
+}
+
+#input-email {
+  margin: 10px;
+}
+
+#house {
+  width: 40%;
+  margin: 10px;
+}
+
+#familia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30%;
+}
+
+#conteudo-para-aprender {
+  display: flex;
+  flex-direction: column;
+}
+
+#familia-e-conteudo {
+  display: flex;
+  padding: 15px;
+}
+
+#avaliacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#avaliacao-form {
+  display: flex;
+}
+
+#avaliacao-form label {
+  margin-right: 3px;
+}
+
+#comentario {
+  margin-top: 16px;
+}
+
+#textarea {
+  resize: none;
+  height: 150px;
+}
+
+#agreementarea {
+  margin-top: 8px;
+  display: flex;
+}
+
+#label-infos {
+  margin-left: 5px;
+}
+
+#submit-btn {
+  margin-top: 8px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  background-color: rgb(50, 167, 145);
+  color: white;
+  text-align: center;
+}
+
+#counter-text {
+  font-size: 15px;
+}
+
+#inscricao {
+  display: none;
+  width: 700px;
+  height: 300px;
+  margin: 16px;
+  padding: 16px;
+  background-color: white;
+  flex-direction: column;
+  border-radius: 5px;
+}
